@@ -1,0 +1,147 @@
+.footer-container {
+  background-color: #f0ffe5;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  
+}
+
+.footer-section-newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.footer-section-newsletter h2{
+  font-size: 14px;
+}
+.footer-section-newsletter h3{
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-section h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-family: 'poppins', sans-serif;
+}
+
+.newsletter p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.subscribe button {
+  padding: 8px 10px;
+  background-color: #165315;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.subscribe button:hover {
+  background-color: #0f3e0e;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  display: flex;
+  gap: 10px;
+ 
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.about-chaperone{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.about-chaperone p {
+  font-size: 14px;
+  padding-top: 10px;
+  
+}
+
+.social-links{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.social-links ul {
+  display: flex;
+  gap: 10px;
+
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #000;
+}
+
+.social-links a:hover {
+  color: #165315;
+}
+
+
+hr{
+    border:1ps solid #ccc;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.product-display {
+  display: flex;
+}
+
+.section {
+  display: flex;
+  gap: 10px;
+}
+
+.sort-filter {
+  display: flex;
+  gap: 10px;
+  width: 40%;
+}
+span {
+  font-size: 14px;
+}

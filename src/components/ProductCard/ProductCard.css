@@ -1,0 +1,161 @@
+.productcard-div {
+  margin: 30px;
+  padding: 10px;
+  height: 700px; /* Fixed height for scrolling */
+  overflow-y: auto; /* Scroll only on the y-axis */
+}
+
+.productcard-div::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-div {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    minmax(250px, 1fr)
+  ); /* Adjust grid columns automatically */
+  gap: 30px; /* Gap between cards */
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.cards-div::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.plantcard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+.card-view-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 100%;
+  background-color: #165315;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+/* //card details */
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.card-details h4 {
+  width: 100%;
+  font-weight: 400;
+  color: gray;
+}
+.stars {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+}
+.stars i {
+  font-size: 12px;
+}
+
+.card-price {
+  display: flex;
+  gap: 10px;
+}
+.card-price .original {
+  text-decoration: line-through;
+}
+.card-price .price {
+  font-weight: 600;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.button button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  padding: 12px;
+  background-color: #165315;
+  border-radius: 8px;
+  color: #fff;
+  width: 50%;
+}
+
+.button .add{
+  padding: 3px;
+}
+
+.button span {
+  padding: 2px;
+}
+.button .buttonbuy {
+  border: 1px solid #165315;
+  background: none;
+  color: #165315;
+  padding: 12px;
+  width: 50%;
+}
+
+/* Pagination button */
+.view-more-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #165315;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 18px;
+}
+
+.view-more-button:hover {
+  background-color: #0f3e10;
+}
+
+.view-more-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #165315;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-more-button:hover {
+  background-color: #0f3e0e;
+}

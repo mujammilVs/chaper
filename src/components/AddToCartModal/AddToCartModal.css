@@ -1,0 +1,120 @@
+.login-popup {
+  /* position: absolute; */
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f7f7;
+  /* background-color: #000; */
+  display: grid;
+}
+
+.login-popup-container {
+  place-self: center;
+  width: max(20vw, 330px);
+  color: #808080;
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+  position: relative;
+  box-shadow: 1px 1px ;
+
+ 
+}
+.login-popup-container .cross {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: #000;
+}
+
+.login-popup-container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-popup-container .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #165315;
+  font-weight: 400;
+  text-align: center;
+  font-size: 17px;
+  line-height: 25.5px;
+}
+img {
+  height: 97px;
+  width: 98px;
+}
+h2 {
+  color: #165315;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+}
+
+.login-popup-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  color: #000;
+}
+
+hr {
+  color: #808080;
+
+  width: 100%;
+}
+
+p {
+  color: #165315;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  background-color: #165315;
+  color: #fff;
+  padding: 10px 20px;
+  width:90%;
+}
+
+.div {
+  width: 211px;
+  height: 222px;
+
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(134deg);
+  background: #f0ffe5;
+  position: absolute;
+  border-radius: 50%;
+  top: 79%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.productname span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #165315;
+}

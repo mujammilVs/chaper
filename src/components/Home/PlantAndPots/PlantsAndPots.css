@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+
+  width: 20%;
+}
+.buttons button {
+  padding: 10px;
+  width: 114px;
+  height: 37px;
+  background-color: #165315;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons .plots {
+  background-color: transparent;
+  border-color: #838383;
+  color: #838383;
+}
+p {
+  padding: 10px;
+  /* margin: 20px; */
+  width: 90%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.nursery {
+  margin: 10px;
+}

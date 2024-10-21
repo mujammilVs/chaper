@@ -1,0 +1,45 @@
+/* Container for the sort filter */
+.sort-filter {
+  position: relative;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+/* Sort button styling */
+.sort-button {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Dropdown styling */
+.dropdown {
+  background-color: #2d6a4f;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+}
+
+/* Radio button labels styling */
+.dropdown label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.dropdown label input {
+  margin-right: 10px;
+}
